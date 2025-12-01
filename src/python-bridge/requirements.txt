@@ -1,0 +1,2 @@
+# NotebookLM Automation Dependencies
+playwright>=1.40.0

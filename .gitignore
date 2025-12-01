@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Cookie files (sensitive)
+cookies.txt
+*_cookies.json
+canvas_cookies.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# Claude Code MCP config (contains credentials)
+.mcp.json
+
+# Python bridge
+src/python-bridge/venv/
+src/python-bridge/state.json
+src/python-bridge/__pycache__/

@@ -1,0 +1,32 @@
+{
+  "name": "canvas-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Canvas LMS - Student-focused read-only access to courses, assignments, submissions, and grades",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "node --test"
+  },
+  "keywords": [
+    "canvas",
+    "lms",
+    "mcp",
+    "model-context-protocol",
+    "education"
+  ],
+  "author": "Sergio Correa Martinengo",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
